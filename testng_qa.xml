@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QA suite" parallel="false">
+  <test  name="QA Group Tests">
+  
+ <groups>
+  <run>
+  <include name="qa"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.APIFramework.Integration.IntegrationFlow"/>
+      <class name="com.APIFramework.Integration.IntegrationFlow2"/>
+      <class name="com.APIFramework.Integration.IntegrationFlow3"/>
+      <class name="com.APIFramework.Integration.IntegrationFlow4"/>
+      </classes>
+  </test> 
+</suite> 

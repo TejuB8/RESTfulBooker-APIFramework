@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Intergration tests">
+  <test  name="prod testCases">
+  <groups>
+  <run>
+  <include name="prod"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.APIFramework.sample.IntegrationSample"/>
+        
+    </classes>
+  </test> 
+</suite> 

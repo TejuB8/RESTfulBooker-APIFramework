@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-08T16:18:34 IST" name="QA suite" finished-at="2025-07-08T16:19:14 IST" duration-ms="39687">
+    <groups>
+      <group name="qa">
+        <method signature="IntegrationFlow.testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" name="testCreateBooking" class="com.APIFramework.Integration.IntegrationFlow"/>
+        <method signature="IntegrationFlow2.testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow2@bcef303]" name="testCreateBooking" class="com.APIFramework.Integration.IntegrationFlow2"/>
+        <method signature="IntegrationFlow3.getBookingByGetAll(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow3@41709512]" name="getBookingByGetAll" class="com.APIFramework.Integration.IntegrationFlow3"/>
+        <method signature="IntegrationFlow4.testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow4@42039326]" name="testCreateBooking" class="com.APIFramework.Integration.IntegrationFlow4"/>
+        <method signature="IntegrationFlow.testVerifyBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" name="testVerifyBooking" class="com.APIFramework.Integration.IntegrationFlow"/>
+        <method signature="IntegrationFlow2.testDeleteBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow2@bcef303]" name="testDeleteBooking" class="com.APIFramework.Integration.IntegrationFlow2"/>
+        <method signature="IntegrationFlow3.testDeleteBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow3@41709512]" name="testDeleteBooking" class="com.APIFramework.Integration.IntegrationFlow3"/>
+        <method signature="IntegrationFlow4.testUpdateBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow4@42039326]" name="testUpdateBooking" class="com.APIFramework.Integration.IntegrationFlow4"/>
+        <method signature="IntegrationFlow.testUpdateBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" name="testUpdateBooking" class="com.APIFramework.Integration.IntegrationFlow"/>
+        <method signature="IntegrationFlow2.testVerifyBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow2@bcef303]" name="testVerifyBooking" class="com.APIFramework.Integration.IntegrationFlow2"/>
+        <method signature="IntegrationFlow3.testVerifyDeletedBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow3@41709512]" name="testVerifyDeletedBooking" class="com.APIFramework.Integration.IntegrationFlow3"/>
+        <method signature="IntegrationFlow4.testDeleteBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow4@42039326]" name="testDeleteBooking" class="com.APIFramework.Integration.IntegrationFlow4"/>
+        <method signature="IntegrationFlow.testDeleteBooking(org.testng.ITestContext)[pri:4, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" name="testDeleteBooking" class="com.APIFramework.Integration.IntegrationFlow"/>
+      </group> <!-- qa -->
+    </groups>
+    <test started-at="2025-07-08T16:18:34 IST" name="QA Group Tests" finished-at="2025-07-08T16:19:14 IST" duration-ms="39687">
+      <class name="com.APIFramework.Integration.IntegrationFlow3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.APIFramework.Integration.IntegrationFlow3@41709512]" started-at="2025-07-08T16:18:54 IST" name="setUp" finished-at="2025-07-08T16:18:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getBookingByGetAll(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow3@41709512]" started-at="2025-07-08T16:18:54 IST" name="getBookingByGetAll" finished-at="2025-07-08T16:18:58 IST" duration-ms="4113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingByGetAll -->
+        <test-method signature="testDeleteBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow3@41709512]" started-at="2025-07-08T16:18:58 IST" name="testDeleteBooking" finished-at="2025-07-08T16:19:03 IST" duration-ms="5419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBooking -->
+        <test-method signature="testVerifyDeletedBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow3@41709512]" started-at="2025-07-08T16:19:03 IST" name="testVerifyDeletedBooking" finished-at="2025-07-08T16:19:06 IST" duration-ms="2255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyDeletedBooking -->
+      </class> <!-- com.APIFramework.Integration.IntegrationFlow3 -->
+      <class name="com.APIFramework.Integration.IntegrationFlow4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.APIFramework.Integration.IntegrationFlow4@42039326]" started-at="2025-07-08T16:19:06 IST" name="setUp" finished-at="2025-07-08T16:19:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow4@42039326]" started-at="2025-07-08T16:19:06 IST" name="testCreateBooking" finished-at="2025-07-08T16:19:07 IST" duration-ms="1752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testUpdateBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow4@42039326]" started-at="2025-07-08T16:19:07 IST" name="testUpdateBooking" finished-at="2025-07-08T16:19:12 IST" duration-ms="4372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBooking -->
+        <test-method signature="testDeleteBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow4@42039326]" started-at="2025-07-08T16:19:12 IST" name="testDeleteBooking" finished-at="2025-07-08T16:19:14 IST" duration-ms="2410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBooking -->
+      </class> <!-- com.APIFramework.Integration.IntegrationFlow4 -->
+      <class name="com.APIFramework.Integration.IntegrationFlow2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.APIFramework.Integration.IntegrationFlow2@bcef303]" started-at="2025-07-08T16:18:46 IST" name="setUp" finished-at="2025-07-08T16:18:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow2@bcef303]" started-at="2025-07-08T16:18:46 IST" name="testCreateBooking" finished-at="2025-07-08T16:18:48 IST" duration-ms="1652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testDeleteBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow2@bcef303]" started-at="2025-07-08T16:18:48 IST" name="testDeleteBooking" finished-at="2025-07-08T16:18:51 IST" duration-ms="3570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBooking -->
+        <test-method signature="testVerifyBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow2@bcef303]" started-at="2025-07-08T16:18:51 IST" name="testVerifyBooking" finished-at="2025-07-08T16:18:54 IST" duration-ms="2408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBooking -->
+      </class> <!-- com.APIFramework.Integration.IntegrationFlow2 -->
+      <class name="com.APIFramework.Integration.IntegrationFlow">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" started-at="2025-07-08T16:18:35 IST" name="setUp" finished-at="2025-07-08T16:18:36 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" started-at="2025-07-08T16:18:36 IST" name="testCreateBooking" finished-at="2025-07-08T16:18:40 IST" duration-ms="3711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testVerifyBooking(org.testng.ITestContext)[pri:2, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" started-at="2025-07-08T16:18:40 IST" name="testVerifyBooking" finished-at="2025-07-08T16:18:41 IST" duration-ms="1735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBooking -->
+        <test-method signature="testUpdateBooking(org.testng.ITestContext)[pri:3, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" started-at="2025-07-08T16:18:41 IST" name="testUpdateBooking" finished-at="2025-07-08T16:18:44 IST" duration-ms="3060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBooking -->
+        <test-method signature="testDeleteBooking(org.testng.ITestContext)[pri:4, instance:com.APIFramework.Integration.IntegrationFlow@2631f68c]" started-at="2025-07-08T16:18:45 IST" name="testDeleteBooking" finished-at="2025-07-08T16:18:46 IST" duration-ms="1620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38704ff0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBooking -->
+      </class> <!-- com.APIFramework.Integration.IntegrationFlow -->
+    </test> <!-- QA Group Tests -->
+  </suite> <!-- QA suite -->
+</testng-results>
