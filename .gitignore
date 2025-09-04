@@ -1,1 +1,18 @@
-/target/
+#Build / Test output
+target/
+test-output/
+surefire-reports/
+allure-results/
+logs/
+
+#IDE junk
+.settings/
+.idea/
+*.iml
+.classpath
+.project
+bin/
+
+#OS
+.DS_Store
+Thumbs.db
